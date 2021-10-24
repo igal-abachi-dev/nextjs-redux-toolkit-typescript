@@ -3,13 +3,14 @@ import Head from 'next/head';
 import Image from 'next/image';
 
 import {Counter} from '../components/counter/Counter';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.scss';
 
 const Home: NextPage = () => {
     return (
         <div className={styles.container}>
             <Head>
                 <title>NextJS - Redux Toolkit</title>
+                <meta name="description" content=""/>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <header className={styles.header}>

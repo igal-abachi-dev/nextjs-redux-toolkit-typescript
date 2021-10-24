@@ -9,7 +9,7 @@ jest.mock('./counterAPI', () => ({
     ),
 }))
 
-import store  from '../../app/store'
+import store  from '../../store'
 import {Counter} from './Counter'
 
 describe('<Counter />', () => {
