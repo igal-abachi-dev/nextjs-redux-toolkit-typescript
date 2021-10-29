@@ -10,7 +10,7 @@ const store = configureStore({
     },
     middleware: (getDefaultMiddleware) =>
         getDefaultMiddleware({
-            serializableCheck: false
+            serializableCheck: false  //better to not disable check when not needed
             /*{
             ignoredActions: [
               'counterReducer/increment',
